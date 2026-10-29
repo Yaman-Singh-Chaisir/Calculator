@@ -1,0 +1,107 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base {
+    background-color: rgb(236, 228, 212);
+    height: 70vh;
+    width: 30vw;
+    border-radius: 8px;
+   
+}
+
+.screen{
+    display: flex;
+    justify-self: center;
+    background: #ffffff;
+    width: 28vw;
+    height: 15vh;
+    margin-top: 1vw;
+    border-radius: 8px;
+    justify-content: end;
+    align-items: end;
+}
+
+.buttonh{
+     width: 28vw;
+     height:40vh;
+     margin-top: 5.75vh;
+     margin-left: 1vw;
+
+}
+.button{
+    width: 5rem;
+    height: 5rem;
+    margin: 1.5rem;
+    font-size: larger;
+    background-color: rgb(155, 163, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #000000;
+}
+.line1{
+height:10vh ;
+width: 28vw;
+display: flex;
+}
+.line2{
+height:10vh ;
+width: 28vw;
+display: flex;
+}
+.line3{
+height:10vh ;
+width: 28vw;
+display: flex;
+}
+.line4{
+height:10vh ;
+width: 28vw;
+display: flex;
+}
+#none{
+    background-color:  rgb(236, 228, 212);
+}
+#plus, #minus, #multiply, #divide{
+background-color: rgb(226, 146, 26);
+}
+.button:hover{
+    background-color: rgb(192, 196, 196);
+    
+}
+#plus:hover{
+    background-color: rgb(219, 161, 74);
+}
+#minus:hover{
+    background-color: rgb(219, 161, 74);
+}
+#multiply:hover{
+    background-color: rgb(219, 161, 74);
+}
+#divide:hover{
+    background-color: rgb(219, 161, 74);
+}
+#remove{
+    font-size: large;
+    background-color: crimson;
+    height: 5vh;
+    margin-top: 5vh;
+}
+#remove:hover{
+    background-color: rgb(247, 11, 58);
+}
+#result{
+    background-color: rgb(11, 164, 211);
+    font-size: x-large;
+    font-weight: bold;
+}
+#result:hover{
+     background-color: rgb(41, 199, 247);
+}
